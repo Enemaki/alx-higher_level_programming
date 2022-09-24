@@ -9,6 +9,7 @@ if __name__ == "__main__":
     else:
         print("{:d} arguments:".format(num))
     for a, s in enumerate(argv):
-        print("{}: {}".format(a, s))
+        if num > 0:
+            print("{}: {}".format(a, s))
 
 
