@@ -9,4 +9,4 @@ def safe_print_list_integers(my_list=[], x=0):
             b += 1
             continue
     print("")
-    return(a)
+    return (a)
